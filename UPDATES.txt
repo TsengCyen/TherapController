@@ -1,0 +1,36 @@
+--------------------------------------
+	Work in Progress
+--------------------------------------
+- Get around other Pages after login:
+//input[@id='markAsReadCheckbox']
+//input[@name='_action_dashboard']
+https://secure.therapservices.net/ma/newfpage/worklist
+
+- Click on the Final Buttons for checking in/out:
+//input[@class='btn btn-primary position-confirm']
+
+--------------------------------------
+	To Do
+--------------------------------------
+- Update forms to pull from drop-down menus
+	- Removes to need to have the app and user to make guesses
+
+- Show Admin functions to admin users and hide from regular users
+	- Show admin functions when admin element is found on HTML
+
+- Create a new Staff user
+	- Enter user creation and create a new staff
+	- Double check for duplicate/similar staff
+		- Make username changes to account for similar names
+		- Iterate in the case of 3+ similar staff names
+	- Ask to set staff profile and permissions
+
+- Assign/Edit Staff Profile & Permissions
+	- Find user
+	- Pull existing settings to display to app
+	- Update settings if the user makes a change to the existing settings
+		- Iterate through a dictionary compared against its previous self?
+
+- Auto Update over the internet:
+	- Allow auto updates over the internet for ease-of-use
+	- Inno Setup Feature
